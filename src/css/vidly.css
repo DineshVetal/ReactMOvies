@@ -1,0 +1,24 @@
+.headers {
+  text-align: left;
+  background-color: #9fd3e7;
+  font-size: 100;
+  font-weight: "bolder";
+  font-family: "sans serif";
+}
+
+.body {
+  text-align: left;
+  /* background-color: rgba(166, 221, 103, 0.984); */
+  font-size: calc(10px + 2vmin);
+  display: ruby-base;
+  flex-direction: row;
+}
+
+.list-group {
+  background-color: rgba(248, 124, 143, 0.984);
+}
+
+.navbar {
+  flex-direction: row;
+  font-size: 100;
+}
