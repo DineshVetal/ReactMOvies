@@ -8,6 +8,7 @@ export const AddMovieData = [
     fieldType: "input",
     name: "Title",
     label: "Title",
+    dbString: "title",
     value: "",
     schema: Joi.string()
       .min(3)
@@ -20,6 +21,7 @@ export const AddMovieData = [
   {
     fieldType: "dropdown",
     name: "Genre",
+    dbString: "genre",
     label: "Choose Genre",
     value: "",
     listItems: genres,
@@ -31,6 +33,7 @@ export const AddMovieData = [
     fieldType: "Input",
     name: "Rate",
     label: "Rate",
+    dbString: "dailyRentalRate",
     value: "",
     schema: Joi.number()
       .min(1)
@@ -44,6 +47,7 @@ export const AddMovieData = [
     fieldType: "Input",
     name: "Stock",
     label: "Stock",
+    dbString: "numberInStock",
     value: "",
     schema: Joi.number()
       .min(1)

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Form from "../Reusable/Form";
+import { getMovie } from "../services/fakeMovieService";
 // import { login_Data } from "../data/LoginData";
 import { dataArray, errorArray, schemaArray } from "../Reusable/data_Object";
 
@@ -33,7 +34,28 @@ class InputField extends Form {
       });
     }
   }
-
+  componentDidMount() {
+    const data = this.props.data;
+    if (
+      this.props.match.path.includes("new") ||
+      this.props.match.path.includes("login")
+    )
+      return;
+    //to map movie data in movie form
+    const movieID = this.props.match.params._id;
+    const movie = getMovie(movieID);
+    data.map(each => {
+      let index = Object.keys(movie).indexOf(each.dbString);
+      let propertyarray = Object.keys(movie);
+      let property = movie[propertyarray[index]];
+      each.value = typeof property === "object" ? property.name : property;
+    });
+    this.setState({
+      data: dataArray(data),
+      errors: errorArray(data),
+      schema: schemaArray(data)
+    });
+  }
   doSubmit = () => {};
 
   render() {

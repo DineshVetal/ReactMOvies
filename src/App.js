@@ -63,7 +63,7 @@ export default class App extends Component {
             render={props => (
               <InputField
                 {...props}
-                buttonName="Edit Movie"
+                buttonName="Update Movie"
                 data={AddMovieData}
               />
             )}
