@@ -1,6 +1,6 @@
 import React from "react";
 
-//colorizeWord
+//colorizeWordd
 const CW = ({ word = "Lorem", color = "red" }) => {
   return <span style={{ color: color }}>{word}</span>;
 };

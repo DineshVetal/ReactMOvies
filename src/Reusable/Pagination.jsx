@@ -13,6 +13,7 @@ const Pagination = ({ currentPage, pageSize, items, onPageSelect }) => {
           {pageArray.map(page => (
             <li
               key={page}
+              // console.log()
               className={
                 page === currentPage ? "page-item active" : "page-item"
               }

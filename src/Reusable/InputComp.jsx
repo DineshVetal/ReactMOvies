@@ -23,7 +23,7 @@ const Input = ({
         className="form-control"
       />
       <small id="text" className="form-text text-muted">
-        {/*optional*/}
+        {/*optionall*/}
         {warning}
       </small>
       {errors && <div className="alert alert-warning">{errors}</div>}

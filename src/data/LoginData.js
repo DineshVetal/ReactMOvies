@@ -17,6 +17,7 @@ export const login_Data = [
     name: "password",
     label: "Password",
     value: "",
+    // console.log()
     type: "password",
     schema: Joi.string()
       .regex(/^[a-zA-Z0-9]{6,16}$/)

@@ -112,7 +112,7 @@ export function getMovie(id) {
 }
 
 // export function saveMovie(movie) {
-//   let movieInDb = movies.find(m => m._id === movie._id) || {};
+//   lets movieInDb = movies.find(m => m._id === movie._id) || {};
 //   movieInDb.title = movie.title;
 //   movieInDb.genre.name = movie.genre.name;
 //   movieInDb.genre._id = movie.genre._id;

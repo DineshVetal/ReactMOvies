@@ -9,3 +9,4 @@ function paginate(PageSize, PageCount, anyArray) {
 }
 
 export default paginate;
+// console.log()

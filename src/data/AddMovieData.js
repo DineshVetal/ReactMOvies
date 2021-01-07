@@ -22,6 +22,7 @@ export const AddMovieData = [
     fieldType: "dropdown",
     name: "Genre",
     dbString: "genre",
+    // console.log()
     label: "Choose Genre",
     value: "",
     listItems: genres,

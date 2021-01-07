@@ -8,6 +8,7 @@ const SearchBox = ({ value, onChange }) => {
       className="form-control my-3 col-4"
       placeholder="Search...  "
       value={value}
+      // console.log()
       onChange={e => onChange(e.currentTarget.value)}
     />
   );

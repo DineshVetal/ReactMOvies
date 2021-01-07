@@ -15,7 +15,7 @@ class InputField extends Form {
   //  This means that you can be sure that the component and all its sub-components have properly rendered itself.
   // Due to the fact that this is the only function that is guaranteed to be called only once in each re-render cycle,
   //  it is recommended to use this function for any side-effect causing operations.
-  //   Similarly to componentWillUpdateand componentWillReceiveProps
+  //   Similarlly to componentWillUpdateand componentWillReceiveProps
   //   this function is called with object-maps of previous props,
   //    state and context, even if no actual change happened to those values.
   //     Because of that developers are expected to manually check if given value

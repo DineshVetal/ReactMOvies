@@ -55,6 +55,7 @@ class MoviesTable extends Component {
         <TableHead
           headers={this.columns}
           onSort={onSort}
+          // console.log()
           SortPath={SortPath}
           SortOrder={SortOrder}
         />

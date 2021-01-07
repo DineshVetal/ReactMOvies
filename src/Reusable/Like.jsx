@@ -9,6 +9,7 @@ const Like = ({ liked, onLike, post }) => {
       <i
         className={heartname}
         onClick={() => onLike(post)}
+        // console.log()
         style={{ color: "red" }}
       />
     </div>

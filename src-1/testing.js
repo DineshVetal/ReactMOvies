@@ -37,4 +37,4 @@ class Teacher extends Person {
 }
 
 const teacher1 = new Teacher("asas", "engg");
-//teacher1.teach();
+//teacher1.teachhh();

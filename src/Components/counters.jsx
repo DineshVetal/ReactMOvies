@@ -4,7 +4,7 @@ import Counter from "./counter";
 class Counters extends Component {
   // constructor() {
   //super();
-  //this.handleIncreement = this.handleIncreement.bind(this);
+  //tthis.handleIncreement = this.handleIncreement.bind(this);
   // }
 
   state = {

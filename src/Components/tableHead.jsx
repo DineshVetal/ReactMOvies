@@ -14,6 +14,7 @@ const TableHead = ({ headers, onSort, SortOrder, SortPath }) => {
               onClick={() => {
                 if (header.path) {
                   onSort(header.path, SortOrder === "asc" ? "desc" : "asc");
+                  // console.log()
                 }
               }}
             >

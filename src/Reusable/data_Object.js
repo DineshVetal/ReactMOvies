@@ -22,7 +22,7 @@ export function errorArray(inputdata) {
   return errorArray;
 }
 
-//just replaced all values to "" except schema and label
+//just replacedd all values to "" except schema and label
 export function schemaArray(inputdata) {
   let schemaArray = [];
   inputdata.map(item => {

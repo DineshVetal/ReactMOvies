@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+
 class MovieInfo extends Component {
   state = {};
   render() {
@@ -17,5 +18,5 @@ class MovieInfo extends Component {
     );
   }
 }
-
+// console.log()
 export default MovieInfo;

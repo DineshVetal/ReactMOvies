@@ -6,7 +6,7 @@ import assassin from "../dist/assets/assasin.jpeg";
 
 {
   /* <NavLink className="nav-item nav-link" to="/counters">
-              Counters
+              Counterss
             </NavLink> */
 }
 

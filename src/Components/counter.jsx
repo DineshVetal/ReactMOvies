@@ -25,6 +25,7 @@ const Counter = ({ counterObj, handleAdd, handleSub, onDelete }) => {
       <button
         className="btn btn-danger m-2"
         style={styles}
+        // console.log()
         onClick={() => onDelete(counterObj)}
       >
         Delete

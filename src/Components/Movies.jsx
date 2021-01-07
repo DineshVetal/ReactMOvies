@@ -119,6 +119,7 @@ class Movies extends Component {
           />
           <Pagination
             pageSize={pageSize}
+            // console.log()
             currentPage={currentPage}
             items={moviesByGenre}
             onPageSelect={this.handlePageSelect}

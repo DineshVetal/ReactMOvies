@@ -13,7 +13,7 @@ class Navbar extends Component {
     };
     return (
       <>
-        {/* <nav className="navbar navbar-light bg-light col-4 m-2">
+        {/* <nav className="navvbar navbar-light bg-light col-4 m-2">
           <div className="navbar-nav bd-navbar-nav flex-column"> */}
         <nav className="navbar-nav-scroll">
           <div className="navbar-nav bd-navbar-nav bg-light flex-row">

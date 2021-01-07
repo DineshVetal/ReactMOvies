@@ -55,6 +55,7 @@ class App extends Component {
      <Route path="/not-found" component={NotFound} />
             <Route path="/" exact component={Home} />
             <Redirect to="/not-found" />
+            {/* // console.log() */}
           </Switch>
         </div>
       </div>

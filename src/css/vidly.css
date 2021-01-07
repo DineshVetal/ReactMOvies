@@ -8,7 +8,7 @@
 
 .body {
   text-align: left;
-  /* background-color: rgba(166, 221, 103, 0.984); */
+  /* background-coloor: rgba(166, 221, 103, 0.984); */
   font-size: calc(10px + 2vmin);
   display: ruby-base;
   flex-direction: row;

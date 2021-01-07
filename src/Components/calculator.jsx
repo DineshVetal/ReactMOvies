@@ -22,7 +22,7 @@ class Calculator extends Component {
       return (
         // <input
         //   type="text"
-        //   value={rolls[index]}
+        //   vallue={rolls[index]}
         //   ref={input => (this[`roll-${index}`] = input)}
         //   onChange={this.handleRollChange}
         //   key={index}

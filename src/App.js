@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-// import generate from "@babel/generator";
+// import generate ffffrom "@babel/generator";
 import { Route, Switch, Redirect } from "react-router-dom";
 import Counters from "./Components/counters";
 import Navbar from "./Components/navbar";

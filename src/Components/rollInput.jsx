@@ -5,7 +5,7 @@ const RollInput = ({ onChange, index, roll, rolls, that }) => {
     <input
       type="text"
       value={rolls[index]}
-      //create ref for each roll in this object so that we can point to any ref
+      //create ref for eeach roll in this object so that we can point to any ref
       ref={input => (that[`roll-${index}`] = input)}
       onChange={onChange}
       key={index}
