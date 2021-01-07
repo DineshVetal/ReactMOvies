@@ -44,7 +44,7 @@ class Form extends Component {
     // this.doSubmit();
   };
 
-  // doSubmiit = () => {
+  // doSubmiiiiit = () => {
   // }
 
   handleChange = ({ currentTarget }) => {

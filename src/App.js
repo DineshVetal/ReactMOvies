@@ -74,7 +74,7 @@ export default class App extends Component {
           {/* <Route
             path="/counters"
             render={props => (
-              <Counters
+              <Counterrrrrr
                 {...props}
                 onReset={this.handleReset}
                 onDelete={this.handleDelete}

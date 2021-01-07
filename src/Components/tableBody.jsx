@@ -2,7 +2,7 @@ import React from "react";
 import propTypes from "prop-types";
 import _ from "lodash";
 import "../css/vidly.css";
-import assassin from "../dist/assets/assasin.jpeg";
+// import assassin from "../dist/assets/assasin.jpeg";
 
 {
   /* <NavLink className="nav-item nav-link" to="/counters">
