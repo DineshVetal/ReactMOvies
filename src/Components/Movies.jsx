@@ -34,12 +34,13 @@ class Movies extends Component {
     likeMovies[index].liked = !likeMovies[index].liked;
     this.setState({ movies: likeMovies });
   };
-  handleDelete = movie => {
-    const deleteMovies = [...this.state.movies];
-    const index = deleteMovies.indexOf(movie);
-    deleteMovies[index] = { ...deleteMovies[index] };
-    deleteMovies.splice(index, 1);
-    this.setState({ movies: deleteMovies });
+  handleDelete = (movie,CP) => {
+    const movies = this.state.movies.filter((m) => m._id !== movie._id);
+    this.setState({ movies });
+    let switchToPage = CP - 1;
+    if (!(movies.length - switchToPage * this.state.pageSize)) {
+      this.setState({ currentPage: switchToPage });
+    }
   };
   handlePageSelect = page => {
     this.setState({ currentPage: page });
@@ -112,6 +113,7 @@ class Movies extends Component {
             onLike={this.handleLike}
             onDelete={this.handleDelete}
             SortPath={SortPath}
+            currentPage={currentPage}
             SortOrder={SortOrder}
             onSort={this.handleSort}
           />

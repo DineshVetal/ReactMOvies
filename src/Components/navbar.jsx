@@ -7,7 +7,7 @@ class Navbar extends Component {
     let navObject = {
       //path:label
       counters: "Counters",
-      calc: "Calculator",
+      // calc: "Calculator",
       movies: "Movies",
       login: "Login"
     };

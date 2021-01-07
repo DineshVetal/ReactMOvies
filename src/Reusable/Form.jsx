@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Input from "./InputComp";
 import Joi from "joi-browser";
 import Dropdown1 from "../Components/Dropdown";
+import { getMovies } from "../services/fakeMovieService";
 
 class Form extends Component {
   state = {
@@ -38,10 +39,13 @@ class Form extends Component {
   };
 
   handleSubmit = e => {
-    e.preventDefault();
-    console.log("Submitted");
-    this.doSubmit();
+    // e.preventDefault();
+    // console.log("Submitted");
+    // this.doSubmit();
   };
+
+  // doSubmit = () => {
+  // }
 
   handleChange = ({ currentTarget }) => {
     const data = [...this.state.data];
