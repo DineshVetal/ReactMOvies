@@ -27,7 +27,7 @@ export default class App extends Component {
           <div className="col-2">
             <a
               className="App-link"
-              href="http://localhost:3000/not-found"
+              href="https://dry-spire-61971.herokuapp.com/not-found"
               target="_blank"
               rel="noopener noreferrer"
             >
